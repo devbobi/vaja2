@@ -36,4 +36,7 @@ def main():
     izpis_vecjih_od(sez)
     sez.sort()
     print(sez)
+    a = int(input("vpisi stevilo "))
+    sez.append(a)
+    print(a)
 main()
