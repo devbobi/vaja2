@@ -24,6 +24,8 @@ def izpis_vecjih_od(sez):
         if i>10:
             print(i)
 
+
+
 def main():
     sez = [12,5,8,21,3,16,9,14]
     sestevek(sez)
@@ -32,4 +34,6 @@ def main():
     najmanjsi(sez)
     st_lihih(sez)
     izpis_vecjih_od(sez)
+    sez.sort()
+    print(sez)
 main()
