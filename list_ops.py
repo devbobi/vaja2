@@ -39,4 +39,10 @@ def main():
     a = int(input("vpisi stevilo "))
     sez.append(a)
     print(a)
+    a = int(input("vpisi stevilo "))
+    if a in sez:
+        sez.remove(a)
+    else:
+        print("to st ne obstaja v seznamu")
+        
 main()
